@@ -10,7 +10,6 @@ int main()
     {
         actual = 0;
         amort = 0;
- 
         for (int i = 0; i < 4; i++)
         {
             if (binary[i] == 0)
@@ -28,7 +27,6 @@ int main()
         }
  
         credits += amort - actual;
- 
         printf("Count: %2d | Binary: ", count);
         for (int i = 3; i >= 0; i--)
         {
